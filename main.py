@@ -6,6 +6,7 @@ import requests
 import math
 import random
 import RPi.GPIO as GPIO
+from twilio.rest import Client
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
