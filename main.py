@@ -71,8 +71,8 @@ if __name__ == '__main__':
             time.sleep(3)
             port.flushInput()
             if(hb_val>110 or hb_val<50):
-                account_sid = 'AC2189c832f54015bd052c0123763fb61f'
-                auth_token = 'fa0f4ec7d5de3b41eff07bd83c92e360'
+                account_sid = 'AC2189c832f54015bd052c0123763fb61f*'
+                auth_token = 'fa0f4ec7d5de3b41eff07bd83c92e360*'
                 client = Client(account_sid, auth_token)
 
                 message = client.messages.create(
