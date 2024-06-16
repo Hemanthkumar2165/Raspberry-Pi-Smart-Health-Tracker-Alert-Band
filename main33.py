@@ -1,5 +1,3 @@
-import time
-import numpy as np
 import os
 import serial
 import time
@@ -27,8 +25,7 @@ VL6 = "z1"
 
 print ("Processing...")
 
-#port = serial.Serial("COM7", baudrate=9600, timeout=1.0)
-#port = "/dev/ttyAMA0"
+
 port = serial.Serial("/dev/ttyUSB0", baudrate=9600, timeout=1.0)
 
 def build_payload(var_1, var_2, var_3, var_4, var_5, var_6,
